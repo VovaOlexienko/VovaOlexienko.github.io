@@ -1,0 +1,16 @@
+.cardForSkills {
+    border: 0;
+}
+
+.cardBodyForSkills {
+    padding-top: 0;
+}
+
+.cardTextForSkills {
+    padding-left: 35px;
+}
+
+.numbering {
+    padding-right: 10px;
+    color: orange;
+}

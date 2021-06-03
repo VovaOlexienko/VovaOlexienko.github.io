@@ -1,0 +1,31 @@
+.sectionShadow {
+    box-shadow: 5px 5px #f8f9fa;
+}
+
+.block {
+    text-align: justify;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.nameOfBlock {
+    margin-top: 75px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media all and (max-width: 992px) {
+    .nameOfBlock {
+        text-align: left;
+    }
+
+    .block, .nameOfBlock {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 20px;
+    }
+}

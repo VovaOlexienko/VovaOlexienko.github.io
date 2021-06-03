@@ -1,0 +1,49 @@
+.progressBarForSkills {
+    height: 5px;
+    border-radius: 0;
+    margin-bottom: 25px;
+}
+
+.progressBarText {
+    text-align: left;
+}
+
+.progressLine100 {
+    width: 0;
+    animation: progress100 2s ease-in-out forwards;
+}
+
+.progressLine80 {
+    width: 0;
+    animation: progress80 2s ease-in-out forwards;
+}
+
+.progressLine30 {
+    width: 0;
+    animation: progress30 2s ease-in-out forwards;
+}
+
+.progressLine10 {
+    width: 0;
+    animation: progress10 2s ease-in-out forwards;
+}
+
+@keyframes progress100 {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes progress80 {
+    from { width: 0; }
+    to { width: 80%; }
+}
+
+@keyframes progress30 {
+    from { width: 0; }
+    to { width: 30%; }
+}
+
+@keyframes progress10 {
+    from { width: 0; }
+    to { width: 10%; }
+}

@@ -1,0 +1,32 @@
+.descriptionOfProjects {
+    background-color: rgba(0,0,0, 0.85);
+    border-radius: 15px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+.carousel-indicators {
+    filter: invert(100%);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    border-radius: 100%;
+    box-shadow:0 0 10px rgba(255,255,0,0.3), 0 0 6px rgba(255,255,0,0.4), 0 0 10px rgba(255,255,0,0.3);
+}
+
+.carouselIFrame {
+    height: 500px;
+}
+
+@media all and (max-width: 1400px) {
+    .carouselIFrame {
+        height: 400px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .carouselIFrame {
+        height: 600px;
+    }
+}

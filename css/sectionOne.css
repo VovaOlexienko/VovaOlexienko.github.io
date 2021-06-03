@@ -1,0 +1,74 @@
+.myPhoto {
+    width: 100%;
+    margin-top: 125px;
+    margin-bottom: 300px;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+hr {
+    margin-top: 200px;
+    width: 95%;
+}
+
+.myFirstName {
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.myLastName {
+    font-size: 60px;
+    margin-top: 0;
+    color: orange;
+}
+
+.contactsIcons {
+    width: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contactsLinks {
+    margin-left: 30px;
+}
+
+.contactsLinks a:hover {
+    color: orange;
+}
+
+@media all and (max-width: 992px) {
+    .linkBlock {
+        margin-bottom: 25px;
+    }
+
+    hr {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .myPhoto {
+        width: 45%;
+        margin: 25px 27.5%;
+    }
+
+    .myPhotoBlock {
+        background-color: white !important;
+    }
+
+    .myFirstName, .myLastName, .whoIam {
+        text-align: center;
+        margin-top: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .aboutLink {
+        margin-bottom: 20px;
+    }
+
+    .linkBlock {
+        text-align: center;
+    }
+}
